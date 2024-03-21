@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/home/tiefxblau/boost_searcher'
+g++ -o parser parser.cpp -std=c++11 -lboost_system -lboost_filesystem
+g++ -o debug debug.cpp -std=c++11 -ljsoncpp
+g++ -o http_server http_server.cpp -std=c++11 -ljsoncpp -lpthread
+make: Leaving directory `/home/tiefxblau/boost_searcher'
+ 

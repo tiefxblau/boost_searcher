@@ -1,0 +1,7 @@
+初期项目
+待完善
+
+如果编译不通过,需使用较新版本编译器
+
+输入:
+    scl enable devtoolset-9 bash
